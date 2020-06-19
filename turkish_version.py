@@ -6,7 +6,7 @@ while kontrol:
         break
     else:
         tarih = dogumTarihi.split('/') # gün, ay, yıl ayırma
-        #kullanıcının girdiği tarihi / ile ayırıp ayırmadğının kontrolü. farklı bir şey ile ayırırsa split işlemi 1 değer döndürür. ancak doğru girildiyse 3 değer döndürür.
+        #kullanıcının girdiği tarihi / ile ayırıp ayırmadığının kontrolü. Farklı bir şey ile ayırırsa split işlemi 1 değer döndürür. ancak doğru girildiyse 3 değer döndürür.
         if len(tarih) == 3: 
             gun = tarih[0]
             ay = tarih[1]
