@@ -103,7 +103,7 @@ while control:
                         #Printing on the screen in the type of day, hour, minute and second from birth to today
                         #The time of birth was accepted as 23:59 and calculated accordingly. Thus, even if it is not clear, the minimum time it lives is calculated.
                         print(f"\nYou are in this world for {passingTime2.days} days and at least {passingHour} hours, {passingMinute} minutes, {passingSecond} seconds.")
-                        print("\nThe hours, minutes and seconds are not exact because you have not entered your birth time. The minimum time was calculated by accepting your birth time as 23:59..\n")
+                        print("\nThe hours, minutes and seconds are not exact because you have not entered your birth time. The minimum time was calculated by accepting your birth time as 23:59.\n")
                         control = False
                         break
 
